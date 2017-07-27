@@ -56,7 +56,7 @@ export default class Game extends React.Component {
 
 	onButton(value) {
 		if(this.state.guessed.find((guess)=>{return(guess===value)}) !== undefined) {
-			//alert("You guessed this number already.");
+			alert("You guessed this number already.");
 		}
 		else {
 			this.updateFeedback(value);
@@ -64,7 +64,6 @@ export default class Game extends React.Component {
 	}
 
 	render(){
-	let inputForm;
 	if(this.state.gameOver) {
 		return(
 			<div className="game">
