@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+.status li{
+  display: inline-block;
+  list-style-type: none;
+  list-style-position:inside;
+  background-color: #222;
+  color: white;
+  margin: 4px 2px;
+  padding: 6px;
+ -moz-border-radius: 6px;
+ -webkit-border-radius: 6px;
+  border-radius: 6px;
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, .5) inset;
+}
+.status ul{
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
